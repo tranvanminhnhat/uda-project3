@@ -1,5 +1,6 @@
 # Use an official Python runtime as a parent image
 FROM python:3.11.5-bookworm
+FROM --platform=linux/amd64
 
 # Set the working directory to /app
 WORKDIR /app
